@@ -40,7 +40,7 @@ foreach (string name in studentName)
 
     int gradedAssignments = 0; //
     int gradedExtraCreditAssignments = 0; //
-    
+
     int sumExamScores = 0; // Soma das notas dos exames
     int sumExtraCreditScores = 0; // Soma das notas de crédito extra
 
@@ -48,21 +48,30 @@ foreach (string name in studentName)
     decimal currentStudentExamScore = 0; // Nota do exame do aluno
     decimal currentStudentExtraCreditScore = 0; // Nota de crédito extra do aluno
 
+
+
     // Soma todas as notas do aluno
     foreach (int score in studentScores)
     {
         gradedAssignments += 1;
 
         if (gradedAssignments <= examAssignments)
-        sumAssignmentScores += score;
-
+        {
+            sumExamScores = sumExamScores + score;
+        }
         else
-            sumAssignmentScores += score / 10;
+        {
+            gradedExtraCreditAssignments += 1;
+            sumExtraCreditScores += score;
+        }
     }
 
     // Calcula a média do aluno
-    currentStudentGrade = (decimal)(sumAssignmentScores) / examAssignments;
-    
+    currentStudentExamScore = (decimal) (sumExamScores) / examAssignments;
+    currentStudentExtraCreditScore = (decimal) (sumExtraCreditScores) / gradedExtraCreditAssignments;
+
+    currentStudentGrade = (decimal) ((decimal)sumExamScores + ((decimal)sumExtraCreditScores / 10)) / examAssignments;
+
     // Define o conceito/letra da nota baseado na média
     if (currentStudentGrade >= 97)
         currentStudentLetterGrade = "A+";
@@ -104,7 +113,7 @@ foreach (string name in studentName)
         currentStudentLetterGrade = "F";
 
     // Exibe o resultado do aluno
-     Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
+    Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
 
 }
 
