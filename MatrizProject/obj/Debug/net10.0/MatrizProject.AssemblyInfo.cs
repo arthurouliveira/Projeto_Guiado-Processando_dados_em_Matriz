@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MatrizProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2dbfbd8c6d8a9ef6e7d477f13b7b7e45e9cd4bde")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69f720b75900e5e7e9ed5b81da63d322e3e2fc95")]
 [assembly: System.Reflection.AssemblyProductAttribute("MatrizProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MatrizProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

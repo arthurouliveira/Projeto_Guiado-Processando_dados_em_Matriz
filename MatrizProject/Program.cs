@@ -113,8 +113,7 @@ foreach (string name in studentName)
         currentStudentLetterGrade = "F";
 
     // Exibe o resultado do aluno
-    Console.WriteLine($"{currentStudent}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}");
-
+    Console.WriteLine($"{currentStudent}\t\t{currentStudentExamScore}\t\t{currentStudentGrade}\t{currentStudentLetterGrade}\t{currentStudentExtraCreditScore}({(decimal)sumExtraCreditScores / 10 / examAssignments} pts)");
 }
 
 // Mensagem final para o usuário
