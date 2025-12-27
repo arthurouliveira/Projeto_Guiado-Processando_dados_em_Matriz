@@ -18,7 +18,7 @@ string currentStudentLetterGrade = "";
 
 // Cabeçalho da tabela de saída
 Console.Clear();
-Console.WriteLine("Student\t\tGrade\tLetter Grade\n");
+Console.WriteLine("Student\t\tExam Score\tOverall Grade\tExtra Credit\n");
 
 // Loop para cada aluno
 foreach (string name in studentName)
@@ -38,11 +38,15 @@ foreach (string name in studentName)
     else if (currentStudent == "Jeong")
         studentScores = jeongScores;
 
-    int sumAssignmentScores = 0; // Soma das notas
+    int gradedAssignments = 0; //
+    int gradedExtraCreditAssignments = 0; //
+    
+    int sumExamScores = 0; // Soma das notas dos exames
+    int sumExtraCreditScores = 0; // Soma das notas de crédito extra
 
     decimal currentStudentGrade = 0; // Média do aluno
-
-    int gradedAssignments = 0; //
+    decimal currentStudentExamScore = 0; // Nota do exame do aluno
+    decimal currentStudentExtraCreditScore = 0; // Nota de crédito extra do aluno
 
     // Soma todas as notas do aluno
     foreach (int score in studentScores)
