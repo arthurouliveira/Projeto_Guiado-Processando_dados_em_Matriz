@@ -1,11 +1,11 @@
 ﻿// Inicializa o número de tarefas/atividades
-int currentAssignments = 5;
+int examAssignments = 5;
 
 // Notas dos alunos em cada tarefa
-int[] sophiaScores = [93, 87, 98, 95, 100];
-int[] nicolasScores = [80, 83, 82, 88, 85];
-int[] zahiraScores = [84, 96, 73, 85, 79];
-int[] jeongScores = [90, 92, 98, 100, 97];
+int[] sophiaScores = [93, 87, 98, 95, 100, 99, 94];
+int[] nicolasScores = [80, 83, 82, 88, 85, 98, 99, 79];
+int[] zahiraScores = [84, 96, 73, 85, 79, 75, 86];
+int[] jeongScores = [90, 92, 98, 100, 97, 81];
 
 // Lista com os nomes dos alunos
 string[] studentName = ["Sophia", "Nicolas", "Zahira", "Jeong"];
@@ -17,7 +17,8 @@ int[] studentScores = new int[10];
 string currentStudentLetterGrade = "";
 
 // Cabeçalho da tabela de saída
-Console.WriteLine("Student\t\tGrade\n");
+Console.Clear();
+Console.WriteLine("Student\t\tGrade\tLetter Grade\n");
 
 // Loop para cada aluno
 foreach (string name in studentName)
@@ -41,14 +42,22 @@ foreach (string name in studentName)
 
     decimal currentStudentGrade = 0; // Média do aluno
 
+    int gradedAssignments = 0; //
+
     // Soma todas as notas do aluno
     foreach (int score in studentScores)
     {
+        gradedAssignments += 1;
+
+        if (gradedAssignments <= examAssignments)
         sumAssignmentScores += score;
+
+        else
+            sumAssignmentScores += score / 10;
     }
 
     // Calcula a média do aluno
-    currentStudentGrade = (decimal)(sumAssignmentScores) / currentAssignments;
+    currentStudentGrade = (decimal)(sumAssignmentScores) / examAssignments;
     
     // Define o conceito/letra da nota baseado na média
     if (currentStudentGrade >= 97)

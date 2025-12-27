@@ -12,3 +12,18 @@ C:\Users\arthur\source\Projeto Guiado - Processando dados em Matriz\MatrizProjec
 C:\Users\arthur\source\Projeto Guiado - Processando dados em Matriz\MatrizProject\obj\Debug\net10.0\MatrizProject.pdb
 C:\Users\arthur\source\Projeto Guiado - Processando dados em Matriz\MatrizProject\obj\Debug\net10.0\MatrizProject.genruntimeconfig.cache
 C:\Users\arthur\source\Projeto Guiado - Processando dados em Matriz\MatrizProject\obj\Debug\net10.0\ref\MatrizProject.dll
+C:\Users\arthur\source\Projeto_Guiado-Processando_dados_em_Matriz\MatrizProject\obj\Debug\net10.0\MatrizProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arthur\source\Projeto_Guiado-Processando_dados_em_Matriz\MatrizProject\obj\Debug\net10.0\MatrizProject.AssemblyInfoInputs.cache
+C:\Users\arthur\source\Projeto_Guiado-Processando_dados_em_Matriz\MatrizProject\obj\Debug\net10.0\MatrizProject.AssemblyInfo.cs
+C:\Users\arthur\source\Projeto_Guiado-Processando_dados_em_Matriz\MatrizProject\obj\Debug\net10.0\MatrizProject.csproj.CoreCompileInputs.cache
+C:\Users\arthur\source\Projeto_Guiado-Processando_dados_em_Matriz\MatrizProject\obj\Debug\net10.0\MatrizProject.sourcelink.json
+C:\Users\arthur\source\Projeto_Guiado-Processando_dados_em_Matriz\MatrizProject\obj\Debug\net10.0\MatrizProject.dll
+C:\Users\arthur\source\Projeto_Guiado-Processando_dados_em_Matriz\MatrizProject\obj\Debug\net10.0\refint\MatrizProject.dll
+C:\Users\arthur\source\Projeto_Guiado-Processando_dados_em_Matriz\MatrizProject\obj\Debug\net10.0\MatrizProject.pdb
+C:\Users\arthur\source\Projeto_Guiado-Processando_dados_em_Matriz\MatrizProject\bin\Debug\net10.0\MatrizProject.exe
+C:\Users\arthur\source\Projeto_Guiado-Processando_dados_em_Matriz\MatrizProject\bin\Debug\net10.0\MatrizProject.deps.json
+C:\Users\arthur\source\Projeto_Guiado-Processando_dados_em_Matriz\MatrizProject\bin\Debug\net10.0\MatrizProject.runtimeconfig.json
+C:\Users\arthur\source\Projeto_Guiado-Processando_dados_em_Matriz\MatrizProject\bin\Debug\net10.0\MatrizProject.dll
+C:\Users\arthur\source\Projeto_Guiado-Processando_dados_em_Matriz\MatrizProject\bin\Debug\net10.0\MatrizProject.pdb
+C:\Users\arthur\source\Projeto_Guiado-Processando_dados_em_Matriz\MatrizProject\obj\Debug\net10.0\MatrizProject.genruntimeconfig.cache
+C:\Users\arthur\source\Projeto_Guiado-Processando_dados_em_Matriz\MatrizProject\obj\Debug\net10.0\ref\MatrizProject.dll

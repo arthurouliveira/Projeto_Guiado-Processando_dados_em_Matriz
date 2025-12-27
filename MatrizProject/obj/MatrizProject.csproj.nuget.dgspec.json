@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arthur\\source\\Projeto Guiado - Processando dados em Matriz\\MatrizProject\\MatrizProject.csproj": {}
+    "C:\\Users\\arthur\\source\\Projeto_Guiado-Processando_dados_em_Matriz\\MatrizProject\\MatrizProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arthur\\source\\Projeto Guiado - Processando dados em Matriz\\MatrizProject\\MatrizProject.csproj": {
+    "C:\\Users\\arthur\\source\\Projeto_Guiado-Processando_dados_em_Matriz\\MatrizProject\\MatrizProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arthur\\source\\Projeto Guiado - Processando dados em Matriz\\MatrizProject\\MatrizProject.csproj",
+        "projectUniqueName": "C:\\Users\\arthur\\source\\Projeto_Guiado-Processando_dados_em_Matriz\\MatrizProject\\MatrizProject.csproj",
         "projectName": "MatrizProject",
-        "projectPath": "C:\\Users\\arthur\\source\\Projeto Guiado - Processando dados em Matriz\\MatrizProject\\MatrizProject.csproj",
+        "projectPath": "C:\\Users\\arthur\\source\\Projeto_Guiado-Processando_dados_em_Matriz\\MatrizProject\\MatrizProject.csproj",
         "packagesPath": "C:\\Users\\arthur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arthur\\source\\Projeto Guiado - Processando dados em Matriz\\MatrizProject\\obj\\",
+        "outputPath": "C:\\Users\\arthur\\source\\Projeto_Guiado-Processando_dados_em_Matriz\\MatrizProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
